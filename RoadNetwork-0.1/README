@@ -1,0 +1,14 @@
+The main program is window.py. Hitting "snapshot" generates
+a postscript file in the current directory.
+ 
+test-closest-parallel.py and test-closest-nonparallel.py get
+random lines in the square and draw them and the red line
+connecting the two lines. You can check if it's working by
+visual inspection. To speed up or slow down, change the DELAY.
+
+The arrowhead goes from the first point on the line to the
+second point and is extremely useful if you're trying to
+debug the quadratic minimizer thing in shortestline.
+
+The other two scripts are crude unit tests that check a few
+things.
